@@ -51,6 +51,7 @@ other resources from the literature.
 terms of ethical considerations:  data handling, fairness, justice, liability, accountability, for example.
 
 ## Timeline
+The below due dates cannot be extended. An assignment is considered late if it has been submitted after the deadline.
 
 Activity                                                                      | Deadline
 ----------------------------------------------------------------------------- | ------------------------------------------

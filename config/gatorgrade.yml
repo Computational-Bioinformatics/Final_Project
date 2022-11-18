@@ -7,12 +7,12 @@
       options:
         count: 200
         exact: false
-    - description: Confirm that the markdown file has the correct number of headers (5)
+    - description: Confirm that the markdown file has the correct number of headers (4)
       check: CountMarkdownTags
       options:
         tag: heading
-        count: 5
-        exact: true
+        count: 4
+        exact: false
     - description: Complete all TODOs, remove the TODO markers in the report.md
       check: MatchFileFragment
       options:
@@ -38,7 +38,7 @@
       options:
         tag: heading
         count: 3
-        exact: true
+        exact: false
     #- description: Confirm an existence of (1) list
     #  check: CountMarkdownLists
     #  options:
@@ -65,12 +65,12 @@
       options:
         count: 500
         exact: false
-    - description: Confirm that the markdown file has the correct number of headers (7)
+    - description: Confirm that the markdown file has the correct number of headers (10)
       check: CountMarkdownTags
       options:
         tag: heading
-        count: 7
-        exact: true
+        count: 10
+        exact: false
     - description: Complete all TODOs, remove the TODO markers in the report.md
       check: MatchFileFragment
       options:
@@ -87,4 +87,4 @@
 - description: Have at least a specific minimum number of commits (15) in repository
   check: CountCommits
   options:
-    count: 15
+    count: 2

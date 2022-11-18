@@ -2,13 +2,13 @@
 
 ## Project Summary
 
-TODO: Describe the completed project. 
+TODO: Describe the completed project.
 How do you know that the project has been completed in terms of meeting the goals?
 Provide a motivation that each of your main goals has been successfully completed.
 
 ## Research Question
 
-TODO: State the research question that motivated your work. 
+TODO: State the research question that motivated your work.
 For instance, describe the general over-arching phenomenon that motivated all steps in your work.
 
 ## Articles
@@ -31,6 +31,7 @@ TODO: Describe how you applied the above resources to generate results in your p
 For example, if you used a tool, please provide some details about what the input and outputs were.
 
 ## Conclusions
+
 TODO: State at least three main conclusions of your work.
 These conclusions should provide knowledge to resolve the research question in some way. 
 

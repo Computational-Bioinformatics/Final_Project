@@ -1,0 +1,90 @@
+# check the technical writing for various characteristics
+- writing/proposal.md:
+    - description: Ensure that proposal.md file exists in the writing/ directory
+      check: ConfirmFileExists
+    - description: Write a minimum number of meaningful words (200) in the report
+      check: CountFileWords
+      options:
+        count: 200
+        exact: false
+    - description: Confirm that the markdown file has the correct number of headers (5)
+      check: CountMarkdownTags
+      options:
+        tag: heading
+        count: 5
+        exact: true
+    - description: Complete all TODOs, remove the TODO markers in the report.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Delete the 'Add Team Member Names' prompt in the report file
+      check: MatchFileFragment
+      options:
+        fragment: "Add Team Member Names"
+        count: 0
+        exact: true
+- writing/progress.md:
+    - description: Ensure that progress.md file exists in the writing/ directory
+      check: ConfirmFileExists
+    - description: Write a minimum number of meaningful words (200) in the report
+      check: CountFileWords
+      options:
+        count: 200
+        exact: false
+    - description: Confirm that the markdown file has the correct number of headers (3)
+      check: CountMarkdownTags
+      options:
+        tag: heading
+        count: 3
+        exact: true
+    #- description: Confirm an existence of (1) list
+    #  check: CountMarkdownLists
+    #  options:
+    #    tag: list
+    #    count: 3
+    #    exact: true
+    - description: Complete all TODOs, remove the TODO markers in the report.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Delete the 'Add Team Member Names' prompt in the report file
+      check: MatchFileFragment
+      options:
+        fragment: "Add Team Member Names"
+        count: 0
+        exact: true
+- writing/report.md:
+    - description: Ensure that report.md file exists in the writing/ directory
+      check: ConfirmFileExists
+    - description: Write a minimum number of meaningful words (500) in the report
+      check: CountFileWords
+      options:
+        count: 500
+        exact: false
+    - description: Confirm that the markdown file has the correct number of headers (7)
+      check: CountMarkdownTags
+      options:
+        tag: heading
+        count: 7
+        exact: true
+    - description: Complete all TODOs, remove the TODO markers in the report.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Delete the 'Add Team Member Names' prompt in the report file
+      check: MatchFileFragment
+      options:
+        fragment: "Add Team Member Names"
+        count: 0
+        exact: true
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (15) in repository
+  check: CountCommits
+  options:
+    count: 15

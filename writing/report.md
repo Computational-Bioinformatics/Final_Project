@@ -45,16 +45,6 @@ TODO: Add an answer to the question above.
 
 3. How could the technology that you used for your study be abused in some way by someone? Explain your thinking.
 
-TODO: Add an answer to the question above.
-
-1. How can the type of robotic application implemented in your project cause harm?
-
-TODO: Add an answer to the question above.
-
-1. What solutions can be developed to avoid the harm caused by this type of technology or to fix the harm?
-
-TODO: Add an answer to the question above.
-
 ## Team Working Strategy
 
 TODO: Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member.

@@ -87,4 +87,4 @@
 - description: Have at least a specific minimum number of commits (15) in repository
   check: CountCommits
   options:
-    count: 2
+    count: 15

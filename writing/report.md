@@ -3,7 +3,7 @@
 ## Project Summary
 
 TODO: Describe the completed project. 
-How do you know that the project has been completed in terms of meeting the goals? 
+How do you know that the project has been completed in terms of meeting the goals?
 Provide a motivation that each of your main goals has been successfully completed.
 
 ## Research Question

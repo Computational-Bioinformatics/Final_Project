@@ -106,10 +106,10 @@ The tasks of the project are the following.
 
 Potential research questions may be comparable to the following:
 
-* I have a protein. Where else is the protein found and how do characteristics of the protein (i.e., function, structure, synteny, etc) differ across diverse organisms.
+* I have a protein. Where else is the protein found and how do characteristics of the protein (i.e., function, structure, synteny, etc) differ across diverse organisms?
 * I extracted a coding region of DNA from a Genbank record. Does this coding region show up in the genomes of other organisms? It the extracted sequence ever found in the _non-coding_ regions of any species?
 * I have found a pseudogene (i.e., a sequence of DNA that contains structure to suggest that it is a gene but it is actually not a gene). What other actual genes is this pseudogene gene similar? What else can I find about this pseudogene from the literature about its status as a defunct gene? 
-* I have a gene from a common bacterium. What other bacterial organisms contain this gene. Does having this gene imply Horizontal Gene Transfer?
+* I have a gene from a common bacterium. What other bacterial organisms contain this gene? Does having this gene imply Horizontal Gene Transfer?
 * I have a three-dimensional image of protein and another image of a related protein. How can studying the domains of each protein help me to determine function?
 * I have isolated a protein domain. Can I find this domain in other proteins? In what ways does this protein domain contribute to general protein function when it is compared to other types of proteins?
 

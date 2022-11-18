@@ -28,7 +28,7 @@ that can be made with seemingly very little effort.
 - [Sample Research Questions](#Sample_Research_Questions)
 - [Cloning Your Repository](#Cloning_Your_Repository)
 - [GatorGrade](#GatorGrade)
-= [Assessment](#Assessment)
+- [Assessment](#Assessment)
 
 
 

@@ -27,16 +27,16 @@ jobs:
           uses: actions/checkout@v2
           with:
             fetch-depth: 0
-        # Run the linting tool
-        - name: Check Markdown
-          uses: DavidAnson/markdownlint-cli2-action@v4
-          with:
-            globs: writing/report.md
-        - name: Check Spelling
-          uses: zwaldowski/cspell-action@v1
-          with:
-            paths: "writing/report.md"
-            config: .github/cspell.json
+        # # Run the linting tool
+        # - name: Check Markdown
+        #   uses: DavidAnson/markdownlint-cli2-action@v4
+        #   with:
+        #     globs: writing/report.md
+        # - name: Check Spelling
+        #   uses: zwaldowski/cspell-action@v1
+        #   with:
+        #     paths: "writing/report.md"
+        #     config: .github/cspell.json
         # Setup Python for the current language version
         - name: Setup Python ${{ matrix.python-version }}
           if: always()
